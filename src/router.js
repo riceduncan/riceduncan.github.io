@@ -18,16 +18,16 @@ export default new Router({
       name: "components",
       components: {
         header: AppHeader,
-        default: Components,
+        default: Landing,
         footer: AppFooter
       }
     },
     {
-      path: "/landing",
-      name: "landing",
+      path: "/about",
+      name: "about",
       components: {
         header: AppHeader,
-        default: Landing,
+        default: Profile,
         footer: AppFooter
       }
     },
