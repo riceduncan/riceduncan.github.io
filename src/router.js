@@ -9,6 +9,7 @@ import About from './views/About.vue';
 import Traditions from './views/subpages/Traditions.vue';
 import FAQ from './views/subpages/FAQ.vue';
 import Contact from './views/subpages/Contact.vue';
+import Government from './views/Government.vue';
 
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
@@ -62,6 +63,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Contact,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/government",
+      name: "government",
+      components: {
+        header: AppHeader,
+        default: Government,
         footer: AppFooter
       }
     },
