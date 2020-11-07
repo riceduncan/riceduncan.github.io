@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="position-relative">
-            <section class="section-shaped my-0 mx-5 section-lg">
+            <section class="section-shaped my-0 mx-5 section-lg mt-3">
                 <div class="shape shape-style-1 splash">
                 </div>
                 <div class="container shape-container d-flex">
@@ -25,59 +25,106 @@
                 </div>
             </section>
         </div>
-        <section class="section section-lg pt-lg-0 mt-5">
+        <section class="section section-lg pt-lg-0 mx-5 mt-5">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="row row-grid">
+                            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                                <h1 class="font-weight-bold text-center"> Black Lives Matter </h1>
+                            </div>
+                            <div class="col-lg-4 d-flex align-items-center text-left">
+                                <span class="text-muted">"<em>To be silent is to be complicit, and we as a college will not stay silent
+                                on issues that affect our family and the Black community.</em>"</span>
+                            </div>
+                            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                                <button class="btn btn-dark mb-sm-0" @click="modals.blm = true">
+                                    <span class="text-white">Read Full Statement</span>
+                                </button>
+                                <modal :show.sync="modals.blm" :modalClasses="'modal-lg'">
+                                    <template slot="header">
+                                        <h3 class="modal-title">Black Lives Matter</h3>
+                                    </template>
+                                    <div>
+                                        <p>
+                                            To the Duncan Family,
+                                        </p>
+                                        <p>
+                                            The recent surfacing of the senseless killings of George Floyd, Ahmaud Aubrey, Breonna Taylor and several 
+                                            others have further emphasized the issues of racial inequality that our country has and continues to face. 
+                                            As a community, we are deeply impacted by these tragedies and the reminder they bring of the social injustice 
+                                            that exists in the world and in the Rice community.
+                                        </p>
+                                        <p>
+                                            We strive to raise awareness for these injustices and are dedicated to starting within our residential college. 
+                                            We write this to state that Duncan is committed to creating an environment that values and supports our Black 
+                                            Duncaroos. We are challenging our non-Black Duncaroos to commit to being anti-racist, inclusive, and unwavering 
+                                            in their allyship. We will have zero tolerance for discrimination and will make efforts to amplify Black voices 
+                                            and encourage inclusivity.
+                                        </p>
+                                        <p>
+                                            We understand that this burden is not for Black Americans to take alone. We stand in active solidarity with the 
+                                            Black community. We realize that many of our fellow Black Duncaroos are grieving and exhausted from taking on 
+                                            this fight alone. It is up to us to stand with our peers and promise to extend allyship beyond our words. With 
+                                            this in mind, we have included a <a class="font-weight-bold" href="https://docs.google.com/document/d/13BkbPEdAuDS0brRYgEkS9nfIsk-NgNMuIXc6cyXva1A/edit">
+                                            thorough list of resources</a> to do that. We encourage you to review all contents of this document. We understand 
+                                            the work that it will take to fix the problems of racism in this country, but we also understand that change starts 
+                                            with action. This document is full of ways to actively support the Black community and improve allyship through 
+                                            education, voting, signing petitions and much more.
+                                        </p>
+                                        <p>
+                                            To be silent is to be complicit, and we as a college will not stay silent on issues that affect our family and 
+                                            the Black community.
+                                        </p>
+                                        <p>
+                                            Somos Equipos, Somos Familia
+                                        </p>
+                                    </div>
+                                </modal>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-lg pt-lg-0">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <div class="row row-grid">
                             <div class="col-lg-4">
-                                <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-check-bold" type="primary" rounded class="mb-4">
+                                <card class="border-0 text-center" hover shadow body-classes="py-5">
+                                    <icon name="ni ni-favourite-28" type="warning" rounded class="mb-4">
                                     </icon>
-                                    <h6 class="text-primary text-uppercase">Download Argon</h6>
-                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap 4
-                                        that includes the most important components and features.</p>
-                                    <div>
-                                        <badge type="primary" rounded>design</badge>
-                                        <badge type="primary" rounded>system</badge>
-                                        <badge type="primary" rounded>creative</badge>
-                                    </div>
-                                    <base-button tag="a" href="#" type="primary" class="mt-4">
-                                        Learn more
+                                    <h6 class="font-weight-bold text-uppercase">Explore O-Week</h6>
+                                    <p class="description mt-3">Access all O-Week resources such as move-in instructions, 
+                                      the packing list, and the 2020 O-Week book.</p>
+                                    <base-button type="success" class="mt-4">
+                                        <router-link to="/about/faq" class="text-white">Let's Go!</router-link>
                                     </base-button>
                                 </card>
                             </div>
                             <div class="col-lg-4">
-                                <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-istanbul" type="success" rounded class="mb-4">
+                                <card class="border-0 text-center" hover shadow body-classes="py-5">
+                                    <icon name="ni ni-calendar-grid-58" type="warning" rounded class="mb-4">
                                     </icon>
-                                    <h6 class="text-success text-uppercase">Build Something</h6>
-                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap
-                                        4 that includes the most important components and features.</p>
-                                    <div>
-                                        <badge type="success" rounded>business</badge>
-                                        <badge type="success" rounded>vision</badge>
-                                        <badge type="success" rounded>success</badge>
-                                    </div>
-                                    <base-button tag="a" href="#" type="success" class="mt-4">
-                                        Learn more
+                                    <h6 class="font-weight-bold text-uppercase">Reserve a Room</h6>
+                                    <p class="description mt-3">Go to the room reservation form to reserve a space for
+                                      gatherings, large and small.</p>
+                                    <base-button type="success" class="mt-4">
+                                        <router-link to="/about/faq" class="text-white">Continue To Form</router-link>
                                     </base-button>
                                 </card>
                             </div>
                             <div class="col-lg-4">
-                                <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-planet" type="warning" rounded class="mb-4">
+                                <card class="border-0 text-center" hover shadow body-classes="py-5">
+                                    <icon name="fa fa-question" type="warning" rounded class="mb-4">
                                     </icon>
-                                    <h6 class="text-warning text-uppercase">Prepare Launch</h6>
-                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap
-                                        4 that includes the most important components and features.</p>
-                                    <div>
-                                        <badge type="warning" rounded>marketing</badge>
-                                        <badge type="warning" rounded>product</badge>
-                                        <badge type="warning" rounded>launch</badge>
-                                    </div>
-                                    <base-button tag="a" href="#" type="warning" class="mt-4">
-                                        Learn more
+                                    <h6 class="font-weight-bold text-uppercase">FAQs</h6>
+                                    <p class="description mt-3">Peruse the most common questions heard around Duncan.
+                                      The PSR states that there's an explanation for everything.</p>
+                                    <base-button type="success" class="mt-4">
+                                        <router-link to="/about/faq" class="text-white">Read More</router-link>
                                     </base-button>
                                 </card>
                             </div>
@@ -86,25 +133,29 @@
                 </div>
             </div>
         </section>
-        <hr />
+        <hr class="my-0" />
         <section class="section section-lg pt-lg-4 mt-5">
             <div class="container justify-content-center">
-                <b-carousel indicators :interval="0" ref="carousel">
+                <b-carousel controls indicators :interval="0" ref="carousel">
                     <b-carousel-slide img-src="img/carousel/all.jpg"></b-carousel-slide>
                     <b-carousel-slide img-src="img/carousel/group.jpg"></b-carousel-slide>
                     <b-carousel-slide img-src="img/carousel/kangaroo.jpg"></b-carousel-slide>
                 </b-carousel>
-                <div class="d-flex justify-content-center">
-                    <base-button type="warning" class="mt-4" icon="ni ni-bold-left" @click="this.incrCarousel"></base-button>
-                    <base-button type="warning" class="mt-4" icon="ni ni-bold-right" @click="this.decrCarousel"></base-button>
-                </div>
             </div>
         </section>
     </div>
 </template>
 
 <script>
+import Modal from '@/components/Modal';
+
 export default {
+  components: { Modal },
+  data() {
+    return {
+      modals: { blm: false }
+    }
+  },
   methods: {
     incrCarousel() {
       this.$refs.carousel.prev()
