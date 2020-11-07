@@ -1,8 +1,8 @@
 <template>
     <header class="header-global">
-        <base-nav id="navbar" transparent type="" class="navbar-main" effect="light" expand>
+        <base-nav id="navbar" type="" class="navbar-main" effect="light" expand>
             <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
-                <img src="img/logo/dunc_white.png" alt="logo">
+                <img src="img/logo/dunc_green.png" alt="logo">
             </router-link>
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
@@ -20,23 +20,23 @@
                 <base-dropdown tag="li" class="nav-item">
                     <router-link slot="title" to="/about" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="fa fa-info-circle d-lg-none"></i>
-                        <span class="nav-link-inner--text">About</span>
+                        <span class="nav-link-inner--text font-weight-bold">About</span>
                     </router-link>
                     <router-link to="/about/traditions" class="dropdown-item">Traditions</router-link>
                     <router-link to="/about/faq" class="dropdown-item">FAQ</router-link>
                     <router-link to="/about/contact" class="dropdown-item">Contact</router-link>
                 </base-dropdown>
                 <base-dropdown tag="li" class="nav-item">
-                    <router slot="title" to="/government" class="nav-link" data-toggle="dropdown" role="button">
+                    <router-link slot="title" to="/government" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="fa fa-comments d-lg-none"></i>
-                        <span class="nav-link-inner--text">Government</span>
-                    </router>
+                        <span class="nav-link-inner--text font-weight-bold">Government</span>
+                    </router-link>
                     <router-link to="/government/forum" class="dropdown-item">Forum</router-link>
                 </base-dropdown>
                 <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="fa fa-users d-lg-none"></i>
-                        <span class="nav-link-inner--text">People</span>
+                        <span class="nav-link-inner--text font-weight-bold">People</span>
                     </a>
                     <router-link to="/login" class="dropdown-item">A-Team</router-link>
                     <router-link to="/" class="dropdown-item">Associates</router-link>
@@ -46,7 +46,7 @@
                 <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="fa fa-bookmark d-lg-none"></i>
-                        <span class="nav-link-inner--text">Resources</span>
+                        <span class="nav-link-inner--text font-weight-bold">Resources</span>
                     </a>
                     <router-link to="/login" class="dropdown-item">Room Reservations</router-link>
                     <router-link to="/" class="dropdown-item">Forms</router-link>
