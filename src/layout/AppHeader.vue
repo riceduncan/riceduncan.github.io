@@ -2,7 +2,7 @@
     <header class="header-global">
         <base-nav id="navbar" type="" class="navbar-main" effect="light" expand>
             <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
-                <img src="img/logo/dunc_green.png" alt="logo">
+                <img src="img/logo/dunc_green.png" alt="logo" class="logo">
             </router-link>
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
@@ -99,5 +99,8 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.logo {
+    height: 3rem;
+}
 </style>

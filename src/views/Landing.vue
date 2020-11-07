@@ -118,7 +118,7 @@ export default {
 
 <style scoped>
 .splash {
-    background-image: url("../../public/img/yeet.jpg");
+    background-image: url("../../public/img/splash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: inset 0 0 0 45rem rgba(0,0,0,.6);
