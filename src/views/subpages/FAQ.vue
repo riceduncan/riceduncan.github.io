@@ -1,6 +1,6 @@
 <template>
-    <div class="traditions-page">
-        <section class="section-traditions-cover section-shaped my-0">
+    <div class="faq-page">
+        <section class="section-faq-cover section-shaped my-0">
             <div class="shape shape-style-1 shape-primary shape-skew alpha-4">
                 <span></span>
                 <span></span>
@@ -14,7 +14,7 @@
                 <div class="col px-0">
                     <div class="row">
                         <div class="col-lg-6">
-                            <h1 class="display-3 text-white">Duncan Traditions
+                            <h1 class="display-3 text-white">Frequently Asked Questions
                             </h1>
                         </div>
                     </div>
@@ -25,13 +25,11 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
-                        <div class="row row-grid">
-                            <div class="col-lg-4 mb-3" v-for="(tradition, index) in traditions" :key="index">
-                                <card class="border-0 tradition" hover shadow body-classes="py-5">
-                                    <icon :name="tradition.icon" :type="index % 2 == 0 ? 'warning' : 'success'" rounded class="mb-4">
-                                    </icon>
-                                    <h6 :class="index % 2 == 0 ? 'text-warning text-uppercase' : 'text-success text-uppercase'">{{ tradition.name }}</h6>
-                                    <p class="description mt-3">{{ tradition.description }}</p>
+                        <div class="row row-grid justify-content-center">
+                            <div class="col-lg-6 mb-3" v-for="(question, index) in questions" :key="index">
+                                <card class="border-0 faq" hover shadow body-classes="py-5">
+                                    <h6 class="text-uppercase font-weight-bold">{{ question.question }}</h6>
+                                    <p class="description mt-3">{{ question.answer }}</p>
                                 </card>
                             </div>
                         </div>
@@ -43,22 +41,22 @@
 </template>
 
 <script>
-import traditions from '../../data/traditions.data';
+import faq from '../../data/faq.data';
 
 export default {
   data() {
     return {
-      traditions: []
+      questions: []
     }
   },
   created() {
-    this.traditions = traditions
+    this.questions = faq
   }
 }
 </script>
 
 <style scoped>
-.tradition {
-    min-height: 30rem;
+.faq {
+    min-height: 15rem;
 }
 </style>

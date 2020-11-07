@@ -7,6 +7,8 @@ import Components from "./views/Components.vue";
 import Landing from "./views/Landing.vue";
 import About from './views/About.vue';
 import Traditions from './views/subpages/Traditions.vue';
+import FAQ from './views/subpages/FAQ.vue';
+import Contact from './views/subpages/Contact.vue';
 
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
@@ -42,6 +44,24 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Traditions,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/about/faq",
+      name: "faq",
+      components: {
+        header: AppHeader,
+        default: FAQ,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/about/contact",
+      name: "contact",
+      components: {
+        header: AppHeader,
+        default: Contact,
         footer: AppFooter
       }
     },

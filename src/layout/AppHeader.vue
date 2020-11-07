@@ -23,18 +23,15 @@
                         <span class="nav-link-inner--text">About</span>
                     </router-link>
                     <router-link to="/about/traditions" class="dropdown-item">Traditions</router-link>
-                    <router-link to="/login" class="dropdown-item">FAQ</router-link>
-                    <router-link to="/login" class="dropdown-item">Contact</router-link>
+                    <router-link to="/about/faq" class="dropdown-item">FAQ</router-link>
+                    <router-link to="/about/contact" class="dropdown-item">Contact</router-link>
                 </base-dropdown>
                 <base-dropdown tag="li" class="nav-item">
-                    <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
+                    <router slot="title" to="/government" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="fa fa-comments d-lg-none"></i>
                         <span class="nav-link-inner--text">Government</span>
-                    </a>
-                    <router-link to="/login" class="dropdown-item">Executive Council</router-link>
-                    <router-link to="/" class="dropdown-item">Committees</router-link>
-                    <router-link to="/profile" class="dropdown-item">Representatives</router-link>
-                    <router-link to="/profile" class="dropdown-item">Forum</router-link>
+                    </router>
+                    <router-link to="/government/forum" class="dropdown-item">Forum</router-link>
                 </base-dropdown>
                 <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
