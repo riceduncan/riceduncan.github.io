@@ -1,6 +1,6 @@
 <template>
-    <header class="header-global">
-        <base-nav id="navbar" type="" class="navbar-main" effect="light" expand>
+    <header class="header-global sticky-top">
+        <base-nav id="navbar" type="" class="navbar-main bg-white" effect="light" expand>
             <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
                 <img src="img/logo/dunc_green.png" alt="logo" class="logo">
             </router-link>
