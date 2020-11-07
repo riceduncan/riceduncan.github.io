@@ -22,7 +22,7 @@
                         <i class="fa fa-info-circle d-lg-none"></i>
                         <span class="nav-link-inner--text">About</span>
                     </router-link>
-                    <router-link to="/" class="dropdown-item">Traditions</router-link>
+                    <router-link to="/about/traditions" class="dropdown-item">Traditions</router-link>
                     <router-link to="/login" class="dropdown-item">FAQ</router-link>
                     <router-link to="/login" class="dropdown-item">Contact</router-link>
                 </base-dropdown>

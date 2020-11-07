@@ -3,8 +3,11 @@ import Router from "vue-router";
 import AppHeader from "./layout/AppHeader";
 import AppFooter from "./layout/AppFooter";
 import Components from "./views/Components.vue";
+
 import Landing from "./views/Landing.vue";
 import About from './views/About.vue';
+import Traditions from './views/subpages/Traditions.vue';
+
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
@@ -13,6 +16,7 @@ Vue.use(Router);
 
 export default new Router({
   linkExactActiveClass: "active",
+  mode: 'history',
   routes: [
     {
       path: "/",
@@ -29,6 +33,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: About,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/about/traditions",
+      name: "traditions",
+      components: {
+        header: AppHeader,
+        default: Traditions,
         footer: AppFooter
       }
     },
