@@ -112,19 +112,20 @@
                                     <p class="description mt-3">Go to the room reservation form to reserve a space for
                                       gatherings, large and small.</p>
                                     <base-button type="success" class="mt-4">
-                                        <router-link to="/about/faq" class="text-white">Continue To Form</router-link>
+                                        <a href="https://duncancollege.skedda.com/booking" class="text-white">Continue To Form</a>
                                     </base-button>
                                 </card>
                             </div>
                             <div class="col-lg-4">
                                 <card class="border-0 text-center" hover shadow body-classes="py-5">
-                                    <icon name="fa fa-question" type="warning" rounded class="mb-4">
+                                    <icon name="ni ni-controller" type="warning" rounded class="mb-4">
                                     </icon>
-                                    <h6 class="font-weight-bold text-uppercase">FAQs</h6>
-                                    <p class="description mt-3">Peruse the most common questions heard around Duncan.
-                                      The PSR states that there's an explanation for everything.</p>
+                                    <h6 class="font-weight-bold text-uppercase">Look For Events</h6>
+                                    <p class="description mt-3">Check out what's in store for Duncaroos, featuring 
+                                        everything from movie and game nights to FITQs!</p>
                                     <base-button type="success" class="mt-4">
-                                        <router-link to="/about/faq" class="text-white">Read More</router-link>
+                                        <a href="https://calendar.google.com/calendar/embed?src=ntl9mmnbh7i9mtug1naihr78mk%40group.calendar.google.com&ctz=America%2FChicago"
+                                           class="text-white">Find Out More</a>
                                     </base-button>
                                 </card>
                             </div>
