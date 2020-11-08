@@ -2,13 +2,13 @@
     <header class="header-global sticky-top">
         <base-nav id="navbar" type="" class="navbar-main bg-white" effect="light" expand>
             <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
-                <img src="/img/logo/dunc_gold.png" alt="logo" class="logo">
+                <img src="/img/logo/dunc_dark_green.png" alt="logo" class="logo">
             </router-link>
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
                 <div class="col-6 collapse-brand">
                     <router-link to="/">
-                        <img src="/img/logo/dunc_gold.png">
+                        <img src="/img/logo/dunc_dark_green.png">
                     </router-link>
                 </div>
                 <div class="col-6 collapse-close">
