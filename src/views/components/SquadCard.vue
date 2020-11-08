@@ -6,7 +6,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-4 col-md-12 col-sm-12 my-3" v-for="(member, index) in members" :key="index">
                 <card class="border-0 text-center" :class="{'bg-success': index <= 1}" hover shadow>
-                    <h6 class="font-weight-bold text-uppercase mt-3">{{member}}</h6>
+                    <h6 class="font-weight-bold text-uppercase mt-3" :class="{'text-white': index <= 1}">{{member}}</h6>
                 </card>
             </div>
         </div>
