@@ -26,7 +26,7 @@
         <section class="section section-lg pt-lg-4 mt-5">
             <div class="container justify-content-center text-center">
                 <div class="row justify-content-center">
-                    <tabs fill type="success" class="flex-column flex-md-row">
+                    <tabs fill class="flex-column flex-md-row">
                         <tab-pane v-for="(reps, index) in representatives" :key="index">
                             <span slot="title">
                                 {{reps.name}}
