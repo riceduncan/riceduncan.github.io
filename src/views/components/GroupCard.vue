@@ -11,7 +11,7 @@
                     <h6 class="font-weight-bold text-uppercase mt-3">{{member.name.split(' & ')[0]}}</h6>
                     <h6 class="font-weight-bold text-uppercase"
                         :class="{'text-white': !member.name.split(' & ')[1]}">
-                    {{member.name.split(' & ')[1] || 'Ghost'}}</h6>
+                    {{member.name.split(' & ')[1] || '&#8203;'}}</h6> <!-- &#8203; is a non-breaking space -->
                     <p class="description smaller mt-3">{{member.email}}</p>
                 </card>
             </div>
