@@ -47,7 +47,7 @@
                     <router-link to="/profile" class="dropdown-item">RHAs</router-link>
                 </base-dropdown>
                 <base-dropdown tag="li" class="nav-item">
-                    <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
+                    <a slot="title" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="fa fa-bookmark d-lg-none"></i>
                         <span class="nav-link-inner--text font-weight-bold">Resources</span>
                     </a>
