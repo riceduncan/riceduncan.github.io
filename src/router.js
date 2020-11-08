@@ -14,6 +14,7 @@ import Representatives from './views/subpages/Representatives.vue';
 import DuncSquad from './views/subpages/DuncSquad.vue';
 import AcademicFellows from './views/subpages/AcademicFellows.vue';
 import Forms from './views/subpages/Forms.vue';
+import NotFound from './views/NotFound.vue';
 
 Vue.use(Router);
 
@@ -117,6 +118,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Forms,
+        footer: AppFooter
+      }
+    },
+    {
+      path: '*',
+      name: 'notfound',
+      components: {
+        header: AppHeader,
+        default: NotFound,
         footer: AppFooter
       }
     }
