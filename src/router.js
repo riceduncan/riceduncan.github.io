@@ -2,7 +2,6 @@ import Vue from "vue";
 import Router from "vue-router";
 import AppHeader from "./layout/AppHeader";
 import AppFooter from "./layout/AppFooter";
-import Components from "./views/Components.vue";
 
 import Landing from "./views/Landing.vue";
 import About from './views/About.vue';
@@ -15,10 +14,6 @@ import Representatives from './views/subpages/Representatives.vue';
 import DuncSquad from './views/subpages/DuncSquad.vue';
 import AcademicFellows from './views/subpages/AcademicFellows.vue';
 import Forms from './views/subpages/Forms.vue';
-
-import Login from "./views/Login.vue";
-import Register from "./views/Register.vue";
-import Profile from "./views/Profile.vue";
 
 Vue.use(Router);
 
@@ -122,33 +117,6 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Forms,
-        footer: AppFooter
-      }
-    },
-    {
-      path: "/login",
-      name: "login",
-      components: {
-        header: AppHeader,
-        default: Login,
-        footer: AppFooter
-      }
-    },
-    {
-      path: "/register",
-      name: "register",
-      components: {
-        header: AppHeader,
-        default: Register,
-        footer: AppFooter
-      }
-    },
-    {
-      path: "/profile",
-      name: "profile",
-      components: {
-        header: AppHeader,
-        default: Profile,
         footer: AppFooter
       }
     }
