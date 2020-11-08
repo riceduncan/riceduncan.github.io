@@ -2,13 +2,13 @@
     <header class="header-global sticky-top">
         <base-nav id="navbar" type="" class="navbar-main bg-white" effect="light" expand>
             <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
-                <img src="img/logo/dunc_green.png" alt="logo" class="logo">
+                <img src="/img/logo/dunc_gold.png" alt="logo" class="logo">
             </router-link>
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
                 <div class="col-6 collapse-brand">
                     <router-link to="/">
-                        <img src="img/logo/dunc_green.png">
+                        <img src="/img/logo/dunc_gold.png">
                     </router-link>
                 </div>
                 <div class="col-6 collapse-close">
@@ -31,6 +31,7 @@
                         <i class="fa fa-comments d-lg-none"></i>
                         <span class="nav-link-inner--text font-weight-bold">Government</span>
                     </router-link>
+                    <router-link to="/government/committees" class="dropdown-item">Committees</router-link>
                     <router-link to="/government/forum" class="dropdown-item">Forum</router-link>
                 </base-dropdown>
                 <base-dropdown tag="li" class="nav-item">

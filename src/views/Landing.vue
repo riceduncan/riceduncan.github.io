@@ -15,8 +15,8 @@
                                 Whether online or in-person, we are always one team, one family.</p>
                                 <div class="btn-wrapper">
                                     <base-button class="mb-3 mb-sm-0"
-                                                 type="white">
-                                        <router-link to="/login">Explore Our College</router-link>
+                                                 type="warning">
+                                        <router-link to="/login" class="text-white">Explore Our College</router-link>
                                     </base-button>
                                 </div>
                             </div>

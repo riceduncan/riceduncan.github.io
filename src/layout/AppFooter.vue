@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-1 text-center">
-                    <img src="img/logo/crest.png" class="img-fluid" />
+                    <img src="/img/logo/crest.png" class="img-fluid" />
                 </div>
                 <div class="col-md-3 text-left my-1">
                     <div class="copyright">
