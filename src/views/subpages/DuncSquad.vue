@@ -1,6 +1,6 @@
 <template>
-    <div class="representative-page">
-        <section class="section-government-cover section-shaped my-0">
+    <div class="squad-page">
+        <section class="section-people-cover section-shaped my-0">
             <div class="shape shape-style-1 shape-default alpha-4">
                 <span></span>
                 <span></span>

@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: 'groupcard',
+  name: 'squadcard',
   props: {
     image: String,
     bio: String,
