@@ -12,6 +12,7 @@ import Contact from './views/subpages/Contact.vue';
 import Government from './views/Government.vue';
 import Committees from './views/subpages/Committees.vue';
 import Representatives from './views/subpages/Representatives.vue';
+import DuncSquad from './views/subpages/DuncSquad.vue';
 import Forms from './views/subpages/Forms.vue';
 
 import Login from "./views/Login.vue";
@@ -94,6 +95,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Representatives,
+        footer: AppFooter
+      }
+    },
+    {
+      path: '/people/duncsquad',
+      name: 'duncsquad',
+      components: {
+        header: AppHeader,
+        default: DuncSquad,
         footer: AppFooter
       }
     },

@@ -35,10 +35,6 @@ export default {
 </script>
 
 <style scoped>
-.group-img {
-    height: 20rem;
-}
-
 .smaller {
     font-size: .78rem;
 }

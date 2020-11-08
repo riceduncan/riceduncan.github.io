@@ -37,14 +37,14 @@
                     <a href="https://docs.google.com/document/d/16b0xmeFPF07ZnMb53IsfF-v7DQ3f_M51vUWjrnOTXfc/edit?usp=sharing" class="dropdown-item">Code of Conduct</a>
                 </base-dropdown>
                 <base-dropdown tag="li" class="nav-item">
-                    <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
+                    <a slot="title" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="fa fa-users d-lg-none"></i>
                         <span class="nav-link-inner--text font-weight-bold">People</span>
                     </a>
-                    <router-link to="/login" class="dropdown-item">DuncSquad</router-link>
-                    <router-link to="/" class="dropdown-item">Associates</router-link>
-                    <router-link to="/profile" class="dropdown-item">Academic Advisors</router-link>
-                    <router-link to="/profile" class="dropdown-item">RHAs</router-link>
+                    <router-link to="/people/duncsquad" class="dropdown-item">DuncSquad</router-link>
+                    <router-link to="/people/associates" class="dropdown-item">Associates</router-link>
+                    <router-link to="/people/paa" class="dropdown-item">Academic Advisors</router-link>
+                    <router-link to="/people/rha" class="dropdown-item">RHAs</router-link>
                 </base-dropdown>
                 <base-dropdown tag="li" class="nav-item">
                     <a slot="title" class="nav-link" data-toggle="dropdown" role="button">
