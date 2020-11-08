@@ -3,7 +3,7 @@ module.exports = [
     "name": "Magisters",
     "bio": "Hey Duncan!! We are so very happy to have joined the Duncan family in the Summer of 2020. It turns out that we have first-hand experience as Owls- we were members of some of those other colleges (waving hands toward the south part of campus) where we fell in love with Rice and (cheezy but true) each other. [Fun fact: O-Week brought us together!] After growing up in Dallas (yes, Cowboys fan), Winston majored in biochemistry and flag football (but also rowed crew, played in a jazz band, and did international service trips). Eden has no hometown (having lived in TX, SC, NC, CA, GA, TX, VA, and TX again) but majored in psychology (and joined half of the organizations on campus). Winston now puts his medical and public health degrees to good use as a family doctor and as the Chair of Health Systems and Population Health Sciences at UH. Eden is a professor of industrial-organizational psychology at Rice, studying and teaching about the ways that diversity and inclusion can be strengthened in the workplace. Our two daughters, Maezie (9) and Margot (4), are also excited to be Duncaroos. Like us, they love sports, baking, making and dancing to music, and Rice.",
     "image": "/img/carousel/kangaroo.jpg",
-    "members": ["Eden", "Winston"]
+    "members": ["Eden", "Winston", "Maezie", "Margot"]
   },
   {
     "name": "2nd Floor RAs",
