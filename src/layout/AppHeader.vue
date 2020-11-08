@@ -51,8 +51,8 @@
                         <i class="fa fa-bookmark d-lg-none"></i>
                         <span class="nav-link-inner--text font-weight-bold">Resources</span>
                     </a>
-                    <router-link to="/login" class="dropdown-item">Room Reservations</router-link>
-                    <router-link to="/" class="dropdown-item">Forms</router-link>
+                    <a href="https://duncancollege.skedda.com/booking" class="dropdown-item">Room Reservations</a>
+                    <router-link to="/resources/forms" class="dropdown-item">Forms</router-link>
                 </base-dropdown>
             </ul>
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">

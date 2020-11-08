@@ -12,10 +12,12 @@ import Contact from './views/subpages/Contact.vue';
 import Government from './views/Government.vue';
 import Committees from './views/subpages/Committees.vue';
 import Representatives from './views/subpages/Representatives.vue';
+import Forms from './views/subpages/Forms.vue';
 
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
+import { FormSelectPlugin } from "bootstrap-vue";
 
 Vue.use(Router);
 
@@ -92,6 +94,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Representatives,
+        footer: AppFooter
+      }
+    },
+    {
+      path: '/resources/forms',
+      name: 'forms',
+      components: {
+        header: AppHeader,
+        default: Forms,
         footer: AppFooter
       }
     },
