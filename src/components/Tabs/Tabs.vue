@@ -59,7 +59,7 @@ export default {
   props: {
     type: {
       type: String,
-      default: "",
+      default: "warning",
       validator: value => {
         let acceptedValues = [
           "",

@@ -32,14 +32,16 @@
                         <span class="nav-link-inner--text font-weight-bold">Government</span>
                     </router-link>
                     <router-link to="/government/committees" class="dropdown-item">Committees</router-link>
-                    <router-link to="/government/forum" class="dropdown-item">Forum</router-link>
+                    <router-link to="/government/representatives" class="dropdown-item">Representatives</router-link>
+                    <a href="https://drive.google.com/file/d/0B5jtzpRA-PYPa1VGWHhkcVlFd29FQ2NvSUlkRks4WExkMW9v/view?usp=sharing" class="dropdown-item">Constitution</a>
+                    <a href="https://docs.google.com/document/d/16b0xmeFPF07ZnMb53IsfF-v7DQ3f_M51vUWjrnOTXfc/edit?usp=sharing" class="dropdown-item">Code of Conduct</a>
                 </base-dropdown>
                 <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="fa fa-users d-lg-none"></i>
                         <span class="nav-link-inner--text font-weight-bold">People</span>
                     </a>
-                    <router-link to="/login" class="dropdown-item">A-Team</router-link>
+                    <router-link to="/login" class="dropdown-item">DuncSquad</router-link>
                     <router-link to="/" class="dropdown-item">Associates</router-link>
                     <router-link to="/profile" class="dropdown-item">Academic Advisors</router-link>
                     <router-link to="/profile" class="dropdown-item">RHAs</router-link>

@@ -11,6 +11,7 @@ import FAQ from './views/subpages/FAQ.vue';
 import Contact from './views/subpages/Contact.vue';
 import Government from './views/Government.vue';
 import Committees from './views/subpages/Committees.vue';
+import Representatives from './views/subpages/Representatives.vue';
 
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
@@ -82,6 +83,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Committees,
+        footer: AppFooter
+      }
+    },
+    {
+      path: '/government/representatives',
+      name: 'representatives',
+      components: {
+        header: AppHeader,
+        default: Representatives,
         footer: AppFooter
       }
     },
