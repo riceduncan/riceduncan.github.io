@@ -16,6 +16,8 @@
                         <div class="col-lg-6">
                             <h1 class="display-3 text-white">Duncan Traditions
                             </h1>
+                            <p class="lead text-white">Despite its relatively young age, Duncan has already established a rich base 
+                            of traditions, with more joining the list every year!</p>
                         </div>
                     </div>
                 </div>
