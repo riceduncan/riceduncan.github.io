@@ -66,7 +66,7 @@ module.exports = [
   },
   {
     "name": "Beer Bike",
-    "description": "The Duncan Beer Bike Committee, consisting of four “Beer Bike Coordinators” and several committee members, is the team in charge of this sacred week of festivities. The duties of the committee involve selecting Willy Week activities (like watching Skyfall, filling water balloons and playing Donnybrook), organizing chosen activities, decorating Duncan according to the theme and, most importantly, hyping up the college for the best day of the school year BEEEEEEEERRRRR BIIIIIIKKKKKEEEEE.", 
+    "description": "BEEEEEEEEEER BIKE!!!! The Beer Bike Coordinators and committee reach out to sponsors, plan Willy Week and its events (a FITQ every day baby!), create and sell cool merchandise and posters, collaborate with coords from other colleges, oversee the float build, and of course, put together an amazing Beer Bike experience for Duncan. #ROOROOROO",
     "image": "/img/government/beerbike.jpg",
     "email": "duncanbeerbike@gmail.com",
     "members": [
@@ -94,7 +94,7 @@ module.exports = [
   },
   {
     "name": "Culture & Arts",
-    "description": "The Culture and Arts committee’s mission is to guide Duncaroos’ cultural education, to host fun and relaxing events, and to beautify Duncan’s public spaces. Over the year, we will be hosting a variety of Culture Nights as well as “Unwind and Design” events, which will allow Duncaroos to show off their artistic side. We’ll also provide a variety of opportunities for Duncan students to have their art featured around the college. Please feel free to email us with ideas, questions, or feedback.",
+    "description": "The Culture & Arts committee brings an appreciation for fine art and diverse international cultures to Duncaroos through the annual Christmas Concert, our annual Mr. Duncan pageant, fun and foody Culture Nights, relaxing Unwind & Design, subsidized tickets to cultural events and concerts, and more! Imagine traveling across the world and exploring with the Duncan community- all in the comfort of our commons.",
     "image": "/img/carousel/kangaroo.jpg",
     "email": "dunccanda@gmail.com",
     "members": [
@@ -158,7 +158,7 @@ module.exports = [
   },
   {
     "name": "Socials",
-    "description": "Hey Duncan! As your socials committee we are so excited to help put together fun events throughout the year that get all Duncaroos involved in our community and help showcase Duncan to other colleges. This year we will organize fall and spring college nights, DuncStep on November 2nd and Sensation in the spring semester. We always love any input or help on current or possible events so feel free to reach out to use through email.",
+    "description": "Calling all ragers 😈The Socials committee carries the weight of the Duncan reputation on their shoulders as they plan our two public partays DuncStep (YeeHaw!) and Sensation! DuncStep is a two-stepping event and Sensation is an EDM glow in the dark RAVE! The committee also plans College Night and Tavern each semester, making sure students of age are practicing safe drinking at all times. This is going to look different due to COVID (public parties aren’t allowed), but Socials is still going to make sure this year is super fun!",
     "image": "/img/carousel/kangaroo.jpg",
     "email": "duncansocials@gmail.com",
     "members": [
@@ -181,7 +181,7 @@ module.exports = [
   },
   {
     "name": "Spirit",
-    "description": "Duncan Spirit Committee focuses on planning many kinds of activities for the Duncan community to enjoy and to build DuncLove. The major events we plan include Duncan Week, Duncan Gala (co-hosted by Associate’s Committee), and Roobilation in the Fall, and DuncSkate in the Spring. Additionally, once a month we have Monday Night Lights. Descriptions of these events can be found below.",
+    "description": "Some of us drink Dunc Tank water for breakfast. Others spend our free time doing the Sun God and shopping for kangaroo statues. However you show your Duncan pride, the Spirit Committee plans events that encourage Duncaroos to feel the warmth of our green and gold community! The committee runs many Duncan traditions such as FITQ’s, Monday Night Lights (it’s coming back!), and Duncan game nights like Family Feud. Spirit also runs the coveted Duncee Awards in the fall. The Spirit Committee is always looking to create new ideas!",
     "image": "/img/carousel/kangaroo.jpg",
     "email": "duncanspirit@gmail.com",
     "members": [
