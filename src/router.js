@@ -10,6 +10,7 @@ import Traditions from './views/subpages/Traditions.vue';
 import FAQ from './views/subpages/FAQ.vue';
 import Contact from './views/subpages/Contact.vue';
 import Government from './views/Government.vue';
+import Committees from './views/subpages/Committees.vue';
 
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
@@ -72,6 +73,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Government,
+        footer: AppFooter
+      }
+    },
+    {
+      path: '/government/committees',
+      name: 'committees',
+      components: {
+        header: AppHeader,
+        default: Committees,
         footer: AppFooter
       }
     },
