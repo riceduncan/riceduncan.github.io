@@ -1,5 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
+
 import AppHeader from "./layout/AppHeader";
 import AppFooter from "./layout/AppFooter";
 
