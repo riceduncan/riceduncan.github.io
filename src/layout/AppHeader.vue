@@ -44,7 +44,7 @@
                     <router-link to="/people/duncsquad" class="dropdown-item">DuncSquad</router-link>
                     <!-- <router-link to="/people/associates" class="dropdown-item">Associates</router-link> -->
                     <router-link to="/people/academicfellows" class="dropdown-item">Academic Fellows</router-link>
-                    <router-link to="/people/rha" class="dropdown-item">RHAs</router-link>
+                    <!-- <router-link to="/people/rha" class="dropdown-item">RHAs</router-link> -->
                 </base-dropdown>
                 <base-dropdown tag="li" class="nav-item">
                     <a slot="title" class="nav-link" data-toggle="dropdown" role="button">
@@ -78,7 +78,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="https://github.com/riceduncan/duncan-website"
+                    <a class="nav-link nav-link-icon" href="https://github.com/riceduncan/riceduncan.github.io"
                        target="_blank" rel="noopener" data-toggle="tooltip" title="Star us on Github">
                         <i class="fa fa-github"></i>
                         <span class="nav-link-inner--text d-lg-none">Github</span>

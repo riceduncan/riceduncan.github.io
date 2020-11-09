@@ -16,7 +16,7 @@
                                 <div class="btn-wrapper">
                                     <base-button class="mb-3 mb-sm-0"
                                                  type="success">
-                                        <router-link to="/login" class="text-white">Explore Our College</router-link>
+                                        <router-link to="/about" class="text-white">Explore Our College</router-link>
                                     </base-button>
                                 </div>
                             </div>
@@ -31,7 +31,7 @@
                     <div class="col-lg-12">
                         <div class="row row-grid">
                             <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                                <h1 class="font-weight-bold text-center"> Black Lives Matter </h1>
+                                <h1 class="font-weight-bold text-center">Black Lives Matter</h1>
                             </div>
                             <div class="col-lg-4 d-flex align-items-center text-left">
                                 <span class="text-muted">"<em>To be silent is to be complicit, and we as a college will not stay silent
@@ -94,13 +94,13 @@
                         <div class="row row-grid">
                             <div class="col-lg-4">
                                 <card class="border-0 text-center" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-favourite-28" type="warning" rounded class="mb-4">
+                                    <icon name="fa fa-pencil" type="warning" rounded class="mb-4">
                                     </icon>
-                                    <h6 class="font-weight-bold text-uppercase">Explore O-Week</h6>
-                                    <p class="description mt-3">Access all O-Week resources such as move-in instructions, 
-                                      the packing list, and the 2020 O-Week book.</p>
+                                    <h6 class="font-weight-bold text-uppercase">Find Academic Help</h6>
+                                    <p class="description mt-3">Look through the list of our amazing academic fellows to
+                                    get help on a plethora of subjects.</p>
                                     <base-button type="success" class="mt-4">
-                                        <router-link to="/about/faq" class="text-white">Let's Go!</router-link>
+                                        <router-link to="/people/academicfellows" class="text-white">Let's Go!</router-link>
                                     </base-button>
                                 </card>
                             </div>
