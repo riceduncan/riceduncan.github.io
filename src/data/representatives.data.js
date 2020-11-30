@@ -143,7 +143,7 @@ module.exports = [
       {
         "name": "Matt Yonas",
         "title": "TOKC Rep",
-        "email": "mby2@rice.edu"
+        "email": "mcy2@rice.edu"
       },
       {
         "name": "Ashna Karpe",

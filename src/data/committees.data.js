@@ -60,7 +60,7 @@ module.exports = [
       {
         "name": "Matt Yonas",
         "title": "Committee Member",
-        "email": "mby2@rice.edu"
+        "email": "mcy2@rice.edu"
       }
     ]
   },
