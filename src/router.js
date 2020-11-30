@@ -13,6 +13,7 @@ import Committees from './views/subpages/Committees.vue';
 import Representatives from './views/subpages/Representatives.vue';
 import DuncSquad from './views/subpages/DuncSquad.vue';
 import AcademicFellows from './views/subpages/AcademicFellows.vue';
+import AcademicAdvising from './views/subpages/AcademicAdvising.vue';
 import Forms from './views/subpages/Forms.vue';
 import NotFound from './views/NotFound.vue';
 
@@ -105,10 +106,19 @@ export default new Router({
     },
     {
       path: '/people/academicfellows',
-      name: 'paa',
+      name: 'fellows',
       components: {
         header: AppHeader,
         default: AcademicFellows,
+        footer: AppFooter
+      }
+    },
+    {
+      path: '/people/paa',
+      name: 'paa',
+      components: {
+        header: AppHeader,
+        default: AcademicAdvising,
         footer: AppFooter
       }
     },
