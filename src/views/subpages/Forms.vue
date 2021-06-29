@@ -28,10 +28,10 @@
                         <div class="row row-grid">
                             <div class="col-lg-4 mb-3" v-for="(form, index) in forms" :key="index">
                                 <card class="border-0 form-card text-center" hover shadow>
-                                    <icon :name="form.icon" type="warning" rounded class="mb-4"></icon>
-                                    <h6 class="text-warning text-uppercase">{{ form.name }}</h6>
+                                    <icon :name="form.icon" :type="index % 2 == 0 ? 'warning' : 'success'" rounded class="mb-4"></icon>
+                                    <h6 class="text-uppercase" :class="index % 2 == 0 ? 'text-warning' : 'text-success'">{{ form.name }}</h6>
                                     <p class="description mt-3">{{ form.description }}</p>
-                                    <base-button type="warning" class="mt-4">
+                                    <base-button :type="index % 2 == 0 ? 'warning' : 'success'" class="mt-4">
                                         <a :href="form.href"
                                            class="text-white">Access Form</a>
                                     </base-button>

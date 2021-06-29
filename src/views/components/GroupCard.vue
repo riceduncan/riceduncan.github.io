@@ -1,6 +1,5 @@
 <template>
     <div class="my-5">
-        <img :src="image" class="img-fluid mb-4" />
         <span class="text-center">{{description}}</span>
         <div class="d-flex align-items-center justify-content-center mt-3" v-if="email"><i class="ni ni-email-83" />&nbsp;{{email}}</div>
         <hr />
