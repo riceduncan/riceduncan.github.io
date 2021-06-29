@@ -7,9 +7,9 @@ module.exports = [
   },
   {
     "name": "2nd Floor RAs",
-    "bio": "Hello Duncan! We are your RAs living on the 2nd floor but we look forward to getting to know all of you, regardless of where you live this year. We’re both born and raised in Poland, which probably explains our accents and sarcastic sense of humor. Bojan is a tennis coach at Rice and first came to the U.S. to study and play tennis at Texas Tech University. After that, followed by an MBA at Western Michigan University, he moved to Houston and has been working for the Owls for the last 8 years. Maggie (Megi) got her degree in law and public administration back in Poland, but her passion has always lay in construction and design. After arriving in the U.S., she decided to change her career, got a degree in interior design (do not confuse with decorating;) and has been working in the industry ever since. Our daughter Kaia is now a year and a half old and we’re very excited that she’ll get to grow up amongst you. We’ve learned that she is very sociable, enjoys meeting and greeting people and gives out disarming smiles to almost anyone who passes by. This is our 7th and last year as RAs and we can’t be more excited to get to know you over meals, study breaks or simply... whenever. You’ll be sure to see us stroll around Duncan and campus so please say hi and stop for a chat when you see us!",
-    "image": "/img/people/squad/secondfloor.jpg",
-    "members": ["Maggie|ps32@rice.edu", "Bojan|bojan.szumanski@rice.edu", "Kaia"]
+    "bio": "",
+    "image": "",
+    "members": []
   },
   {
     "name": "3rd Floor RAs",
@@ -25,8 +25,8 @@ module.exports = [
   },
   {
     "name": "College Coordinator",
-    "bio": "Hi Duncaroos! I’m Ms. Woods, the College Coordinator for Duncan. I enjoy meeting people, and I have a listening ear and a willing heart. One of the things I look forward to is developing a lasting relationship with all of the students who pass through Duncan College. I have worked at Rice for ten years. Prior to Rice, I had the privilege of working with students, young people, and professional educators. My desire is that each of you pursue your dreams, both academically and socially. There is no limit to one’s personal success, as long as you are true to yourself and respectful of others. Believe in yourself and take the time to learn from others. With each day that passes there is an opportunity to gain wisdom from someone or something. I am a proud mother of two and proud grandmother of three. Welcome to the Duncan Family!!!",
-    "image": "/img/people/squad/coordinator.jpg",
-    "members": ["Ms. Woods|vbw1@rice.edu"]
+    "bio": "",
+    "image": "",
+    "members": []
   }
 ]
