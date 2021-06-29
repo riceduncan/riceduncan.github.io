@@ -5,22 +5,22 @@ module.exports = [
     "image": "/img/carousel/all.jpg",
     "members": [
       {
-        "name": "Cordy McJunkins",
+        "name": "Lila Frenkel",
         "title": "President",
         "email": "duncancollegepresident@gmail.com"
       },
       {
-        "name": "Lila Frenkel",
+        "name": "Jacob Duplantis",
         "title": "LVP",
         "email": "duncancollegelvp@gmail.com"
       },
       {
-        "name": "Divine Webber & Jared Perkowski",
+        "name": "Joe O'Neill & Sam Venker",
         "title": "Vice Presidents",
         "email": "duncancollegevps@gmail.com"
       },
       {
-        "name": "Maher Nammour & Ben Thomas",
+        "name": "Ben Thomas & Jenny Heo",
         "title": "Treasurers",
         "email": "duncancollegetreasurers@gmail.com"
       },
@@ -30,7 +30,7 @@ module.exports = [
         "email": "duncancollegecj@gmail.com"
       },
       {
-        "name": "Karen Murambadoro & Jacob Duplantis",
+        "name": "Julie Park & Esteban Pantoja",
         "title": "Secretaries",
         "email": "duncancollegesecretaries@gmail.com"
       },
@@ -48,19 +48,19 @@ module.exports = [
     "email": "duncassociates@gmail.com",
     "members": [
       {
-        "name": "Dani Morgen",
-        "title": "Committee Head",
-        "email": "dfm4@rice.edu"
-      },
-      {
-        "name": "Mikayla Knutson",
-        "title": "Committee Member",
-        "email": "mvk3@rice.edu"
-      },
-      {
         "name": "Matt Yonas",
-        "title": "Committee Member",
+        "title": "Committee Head",
         "email": "mcy2@rice.edu"
+      },
+      {
+        "name": "Saksham Vashistha",
+        "title": "Committee Member",
+        "email": "sv28@rice.edu"
+      },
+      {
+        "name": "Isis Burgos",
+        "title": "Committee Member",
+        "email": "ieb2@rice.edu"
       }
     ]
   },
@@ -71,24 +71,24 @@ module.exports = [
     "email": "duncanbeerbike@gmail.com",
     "members": [
       {
-        "name": "Lindsay Josephs",
+        "name": "Carla Sipahioglu",
         "title": "Committee Head",
-        "email": "ltj1@rice.edu"
+        "email": "cas28@rice.edu"
       },
       {
-        "name": "Jacobo Nieto",
+        "name": "Eric Webb",
         "title": "Committee Member",
-        "email": "jn30@rice.edu"
+        "email": "ezw1@rice.edu"
       },
       {
-        "name": "Peter Nikonowicz",
+        "name": "Anthony Insalaco",
         "title": "Committee Member",
-        "email": "pjn3@rice.edu"
+        "email": "ami1@rice.edu"
       },
       {
-        "name": "Joseph O'Neill",
+        "name": "Matthew Hamrick",
         "title": "Committee Member",
-        "email": "jmo2@rice.edu"
+        "email": "msh16@rice.edu"
       }
     ]
   },
@@ -99,19 +99,19 @@ module.exports = [
     "email": "dunccanda@gmail.com",
     "members": [
       {
-        "name": "Becca Mak",
+        "name": "Maria Bustillo",
         "title": "Committee Head",
-        "email": "rcm9@rice.edu"
+        "email": "mab30@rice.edu"
       },
       {
-        "name": "Anh Nguyen",
+        "name": "Suzanne Harms",
         "title": "Committee Member",
-        "email": "ahn4@rice.edu"
+        "email": "sfh3@rice.edu"
       },
       {
-        "name": "Eunice Tan",
+        "name": "Nini Nguyen",
         "title": "Committee Member",
-        "email": "ett2@rice.edu"
+        "email": "nnn3@rice.edu"
       }
     ]
   },
@@ -127,14 +127,9 @@ module.exports = [
         "email": "lwz1@rice.edu"
       },
       {
-        "name": "Jacob Duplantis",
+        "name": "Jacob Nieto",
         "title": "Committee Member",
-        "email": "jmd20@rice.edu"
-      },
-      {
-        "name": "Anh Nguyen",
-        "title": "Committee Member",
-        "email": "ahn4@rice.edu"
+        "email": "jn30@rice.edu"
       }
     ]
   },
@@ -145,14 +140,14 @@ module.exports = [
     "email": "duncsenioroos@gmail.com",
     "members": [
       {
-        "name": "Sarah Jin",
+        "name": "Ashley Roland",
         "title": "Committee Head",
-        "email": "smj6@rice.edu"
+        "email": "arr7@rice.edu"
       },
       {
-        "name": "Ben Harris",
+        "name": "Claire Cho",
         "title": "Committee Member",
-        "email": "bbh3@rice.edu"
+        "email": "cec19@rice.edu"
       }
     ]
   },
@@ -163,19 +158,19 @@ module.exports = [
     "email": "duncansocials@gmail.com",
     "members": [
       {
-        "name": "Megan Xiao",
+        "name": "Kathryn Gonzalez",
         "title": "Committee Head",
-        "email": "mcx1@rice.edu"
+        "email": "kog2@rice.edu"
       },
       {
-        "name": "Caroline Holland",
+        "name": "Wafa Mohammed",
         "title": "Committee Member",
-        "email": "ckh6@rice.edu"
+        "email": "wm18@rice.edu"
       },
       {
-        "name": "Carla Sipahioglu",
+        "name": "Vinson Lu",
         "title": "Committee Member",
-        "email": "cas28@rice.edu"
+        "email": "vl15@rice.edu"
       }
     ]
   },
@@ -186,19 +181,37 @@ module.exports = [
     "email": "duncanspirit@gmail.com",
     "members": [
       {
-        "name": "Max Lin",
+        "name": "Wanqi Yuan",
         "title": "Committee Head",
-        "email": "ml73@rice.edu"
+        "email": "wy21@rice.edu"
       },
       {
-        "name": "Sam Venker",
+        "name": "Katie Hart",
         "title": "Committee Member",
-        "email": "sfv1@rice.edu"
+        "email": "keh8@rice.edu"
       },
       {
-        "name": "Arjun Peddireddy",
+        "name": "Calvin Nilson",
         "title": "Committee Member",
-        "email": "asp7@rice.edu"
+        "email": "cln6@rice.edu"
+      },
+      {
+        "name": "Evan Dunbar",
+        "title": "Committee Member",
+        "email": "emd13@rice.edu"
+      }
+    ]
+  },
+  {
+    "name": "Diversity",
+    "description": "",
+    "image": "/img/carousel/kangaroo.jpg",
+    "email": "",
+    "members": [
+      {
+        "name": "TBD",
+        "title": "Committee Head",
+        "email": "This could be you!"
       }
     ]
   }

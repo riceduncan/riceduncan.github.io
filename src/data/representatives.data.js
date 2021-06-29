@@ -9,19 +9,9 @@ module.exports = [
         "email": "cw73@rice.edu"
       },
       {
-        "name": "Karen Okoroafor",
-        "title": "Historian",
-        "email": "co2@rice.edu"
-      },
-      {
-        "name": "Julie Park",
-        "title": "Historian",
-        "email": "mby2@rice.edu"
-      },
-      {
-        "name": "Daniel Han",
-        "title": "Historian",
-        "email": "mh83@rice.edu"
+        "name": "David Ikejiani",
+        "title": "Alumni Rep",
+        "email": "dbi1@rice.edu"
       }
     ]
   },
@@ -30,30 +20,14 @@ module.exports = [
     "image": "/img/government/kitchen.jpg",
     "members": [
       {
-        "name": "Summer Barette",
-        "title": "Kitchen Rep",
-        "email": "srb11@rice.edu"
-      },
-      {
-        "name": "Kathryn Gonzalez",
-        "title": "Kitchen Rep",
-        "email": "kog2@rice.edu"
-      },
-      {
         "name": "Catherine Li",
         "title": "Kitchen Rep",
         "email": "cl109@rice.edu"
-      }
-    ]
-  },
-  {
-    "name": "RPC",
-    "image": "/img/carousel/kangaroo.jpg",
-    "members": [
+      },
       {
-        "name": "Ashley Pena",
-        "title": "RPC Rep",
-        "email": "anp12@rice.edu"
+        "name": "Kat Rosner",
+        "title": "Kitchen Rep",
+        "email": "ker10@rice.edu"
       }
     ]
   },
@@ -62,14 +36,14 @@ module.exports = [
     "image": "/img/carousel/kangaroo.jpg",
     "members": [
       {
-        "name": "Chris Heuser",
+        "name": "Colin Freeman",
         "title": "Sports Rep",
-        "email": "cmh16@rice.edu"
+        "email": "ccf9@rice.edu"
       },
       {
-        "name": "Jessica Sheldon",
+        "name": "Sai Mallannagari",
         "title": "Sports Rep",
-        "email": "jls26@rice.edu"
+        "email": "srm12@rice.edu"
       }
     ]
   },
@@ -78,24 +52,19 @@ module.exports = [
     "image": "/img/government/merchandise.PNG",
     "members": [
       {
-        "name": "Nhi Nguyen",
+        "name": "Sai Mettupalli",
         "title": "Merch Rep",
-        "email": "nnn3@rice.edu"
+        "email": "srm13@rice.edu"
       },
       {
-        "name": "Blaise Willis",
+        "name": "Megan Xiao",
         "title": "Merch Rep",
-        "email": "mbw6@rice.edu"
+        "email": "mcx1@rice.edu"
       },
       {
-        "name": "Serene Chen",
+        "name": "Ashley Roland",
         "title": "Merch Rep",
-        "email": "sc106@rice.edu"
-      },
-      {
-        "name": "Sherry Lin",
-        "title": "Merch Rep",
-        "email": "sl118@rice.edu"
+        "email": "arr7@rice.edu"
       }
     ]
   },
@@ -104,19 +73,14 @@ module.exports = [
     "image": "/img/government/alumni.jpg",
     "members": [
       {
-        "name": "Karen Okoroafor",
+        "name": "Sydney Rodman",
         "title": "Alumni Rep",
-        "email": "cko2@rice.edu"
+        "email": "slr10@rice.edu"
       },
       {
         "name": "David Ikejiani",
         "title": "Alumni Rep",
         "email": "dbi1@rice.edu"
-      },
-      {
-        "name": "Dhruv Nandakumar",
-        "title": "Alumni Rep",
-        "email": "dn28@rice.edu"
       },
       {
         "name": "Raul Montes",
@@ -126,45 +90,18 @@ module.exports = [
     ]
   },
   {
-    "name": "Laundry",
-    "image": "/img/carousel/kangaroo.jpg",
-    "members": [
-      {
-        "name": "Ayo Akin",
-        "title": "Laundry Rep",
-        "email": "aa104@rice.edu"
-      }
-    ]
-  },
-  {
-    "name": "TOKC",
-    "image": "/img/government/tokc.png",
-    "members": [
-      {
-        "name": "Matt Yonas",
-        "title": "TOKC Rep",
-        "email": "mcy2@rice.edu"
-      },
-      {
-        "name": "Ashna Karpe",
-        "title": "TOKC Rep",
-        "email": "ask12@rice.edu"
-      }
-    ]
-  },
-  {
     "name": "Service",
     "image": "/img/government/service.PNG",
     "members": [
       {
-        "name": "Adnan Lateef",
+        "name": "Aanika Kashyap",
         "title": "Service Rep",
-        "email": "aml20@rice.edu"
+        "email": "ak106@rice.edu"
       },
       {
         "name": "Anna Tutuianu",
         "title": "Service Rep",
-        "email": "altutuianu@rice.edu"
+        "email": "alt8@rice.edu"
       }
     ]
   },
@@ -173,31 +110,53 @@ module.exports = [
     "image": "/img/carousel/kangaroo.jpg",
     "members": [
       {
-        "name": "Brandon Zhang",
+        "name": "Julie Park",
         "title": "OC Rep",
-        "email": "byz2@rice.edu"
+        "email": "sp44@rice.edu"
       },
       {
-        "name": "Dani Morgen",
+        "name": "Wanqi Yuan",
         "title": "OC Rep",
-        "email": "dfm4@rice.edu"
+        "email": "wy21@rice.edu"
       }
     ]
   },
   {
-    "name": "Tech",
+    "name": "TOKC",
     "image": "/img/government/tech.jpeg",
     "members": [
       {
-        "name": "Megan Xiao",
-        "title": "Tech Rep",
-        "email": "mcx1@rice.edu"
-      },
-      {
-        "name": "Nina Kumar",
-        "title": "Tech Rep",
-        "email": "nk46@rice.edu"
+        "name": "Vanshika Jhonsa",
+        "title": "TOKC Rep",
+        "email": "vpj1@rice.edu"
       }
     ]
-  }
+  },
+  {
+    "name": "State of Roonion",
+    "image": "/img/government/tech.jpeg",
+    "members": [
+      {
+        "name": "Katherine Hui",
+        "title": "Roonion Rep",
+        "email": "kh55@rice.edu"
+      }
+    ]
+  },
+  {
+    "name": "Int'l",
+    "image": "/img/carousel/kangaroo.jpg",
+    "members": [
+      {
+        "name": "Derek Fu",
+        "title": "Int'l Rep",
+        "email": "tf18@rice.edu"
+      },
+      {
+        "name": "Spring Xia",
+        "title": "Int'l Rep",
+        "email": "yx53@rice.edu"
+      }
+    ]
+  },
 ]
