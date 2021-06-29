@@ -34,7 +34,7 @@
 import Modal from '@/components/Modal';
 
 export default {
-  name: 'fellowsection',
+  name: 'fellowcard',
   components: { Modal },
   props: {
     members: {

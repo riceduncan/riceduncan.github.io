@@ -68,7 +68,7 @@
                             <span slot="title">
                                 {{type.name}}
                             </span>
-                            <FellowSection :members="type.members" />
+                            <FellowCard :members="type.members" />
                         </tab-pane>
                     </tabs>
                 </div>
@@ -80,12 +80,12 @@
 <script>
 import Tabs from '../../components/Tabs/Tabs';
 import TabPane from '../../components/Tabs/TabPane';
-import FellowSection from '../components/FellowSection';
+import FellowCard from '../components/FellowCard';
 
 import fellows from '../../data/fellows.data';
 
 export default {
-  components: { Tabs, TabPane, FellowSection },
+  components: { Tabs, TabPane, FellowCard },
   data() {
     return {
       fellows: []
