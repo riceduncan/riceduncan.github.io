@@ -82,13 +82,22 @@ export default {
 <style scoped>
 @media only screen and (max-width: 576px) {
   .filler {
-    height: 40vh;
+    height: 25vh;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .filler {
     height: 40vh;
+    margin: 1rem 2rem 1rem 0rem;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .filler {
+    height: 30vh;
     margin: 1rem 2rem 1rem 0rem;
   }
 }
