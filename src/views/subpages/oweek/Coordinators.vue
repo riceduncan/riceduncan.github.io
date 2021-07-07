@@ -93,13 +93,21 @@ export default {
 
 @media only screen and (max-width: 576px) {
   .all {
-    height: 40vh;
+    height: 25vh;
+    margin-bottom: 1rem;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .all {
     height: 40vh;
+    margin: 1rem 0rem .5rem 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .all {
+    height: 30vh;
     margin: 1rem 0rem .5rem 2rem;
   }
 }
