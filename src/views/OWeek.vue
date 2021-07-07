@@ -119,16 +119,6 @@ export default {
   color: #000;
 }
 
-.network {
-  position: fixed;
-  z-index: -1;
-  margin-top: 5rem;
-  margin-right: 7rem;
-  height: 70rem;
-  right: 0;
-  opacity: .75;
-}
-
 .nav-item {
   font-size: 1.5rem;
 }
@@ -150,11 +140,41 @@ export default {
     padding-top: 10rem;
     padding-bottom: 10rem;
   }
+
+  .network {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) {
   .titles {
     text-align: left;
+  }
+
+  .network {
+    position: fixed;
+    z-index: -1;
+    margin-top: 5rem;
+    margin-right: 7rem;
+    height: 70rem;
+    right: 0;
+    opacity: .75;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .titles {
+    text-align: left;
+  }
+
+  .network {
+    position: fixed;
+    z-index: -1;
+    margin-top: 5rem;
+    margin-right: 7rem;
+    height: 100rem;
+    right: 0;
+    opacity: .75;
   }
 }
 
