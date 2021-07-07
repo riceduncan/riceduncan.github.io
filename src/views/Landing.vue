@@ -12,11 +12,15 @@
                                     <span>Welcome Home</span>
                                 </h1>
                                 <p class="lead text-white"><em>Somos Equipos, Somos Familia.</em>
-                                Whether online or in-person, we are always one team, one family.</p>
+                                New students, welcome to the family! We're so glad you're home.</p>
                                 <div class="btn-wrapper">
                                     <base-button class="mb-3 mb-sm-0"
                                                  type="success">
                                         <router-link to="/about" class="text-white">Explore Our College</router-link>
+                                    </base-button>
+                                    <base-button class="mb-3 mb-sm-0"
+                                                 type="warning">
+                                        <router-link to="/oweek" class="text-white">O-Week!</router-link>
                                     </base-button>
                                 </div>
                             </div>
@@ -156,6 +160,9 @@ export default {
     return {
       modals: { blm: false }
     }
+  },
+  created() {
+      console.log("pssst...hey...over here- if you're reading this message, then you must have some developer console open on your browser, right? that makes you qualified to help out with the website! email aw47@rice.edu if you're interested.");
   },
   methods: {
     incrCarousel() {
