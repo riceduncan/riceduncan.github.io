@@ -25,12 +25,12 @@
                                     <h3>Your Room</h3>
                                     <hr class="mt-0 mb-3" />
                                     <div class="row">
-                                        <div class="col-sm-12 col-md-6">
-                                            <img :src="require('../../../../public/img/oweek/room.png')" class="img-fluid d-block mx-auto" />
+                                        <div class="col-sm-12 col-md-6 mb-4">
+                                            <img :src="require('../../../../public/img/oweek/room.png')" class="img-fluid d-block mx-auto room" />
                                         </div>
-                                        <div class="col-sm-12 col-md-6 d-flex justify-content-center align-items-center">
+                                        <div class="col-sm-12 col-md-6 mb-4 d-flex justify-content-center align-items-center">
                                             <div>
-                                            <h5 class="font-weight-bold">Furniture Provided</h5>
+                                                <h5 class="font-weight-bold">Furniture Provided</h5>
                                                 <ul>
                                                     <li>Twin XL Bedframe</li>
                                                     <li>Twin XL Mattress</li>
@@ -42,7 +42,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <p class="mt-4">Almost every New Student will live in a
+                                    <p>Almost every New Student will live in a
                                     Duncan double. The Duncan doubles are
                                     some of the nicest and most spacious rooms
                                     at Rice. You and your roommate will share
@@ -67,16 +67,4 @@ export default {
 </script>
 
 <style scoped>
-@media only screen and (max-width: 576px) {
-  .filler {
-    height: 25vh;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .filler {
-    height: 25vh;
-    margin: 1rem 2rem 1rem 0rem;
-  }
-}
 </style>
