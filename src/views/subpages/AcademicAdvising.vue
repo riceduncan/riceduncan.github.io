@@ -43,7 +43,7 @@
 import Tabs from '../../components/Tabs/Tabs';
 import TabPane from '../../components/Tabs/TabPane';
 
-import advisors from '../../data/advisors.data';
+import advisors from '../../data/acadvisors.data';
 
 export default {
   components: { Tabs, TabPane },

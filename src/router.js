@@ -17,6 +17,12 @@ import AcademicFellows from './views/subpages/AcademicFellows.vue';
 import AcademicAdvising from './views/subpages/AcademicAdvising.vue';
 import Forms from './views/subpages/Forms.vue';
 import NotFound from './views/NotFound.vue';
+import OWeek from './views/OWeek.vue';
+import Theme from './views/subpages/oweek/Theme.vue';
+import OWeekContact from './views/subpages/oweek/Contact.vue';
+import Coordinators from './views/subpages/oweek/Coordinators.vue';
+import Room from './views/subpages/oweek/Room.vue';
+import MoveIn from './views/subpages/oweek/MoveIn.vue';
 
 Vue.use(Router);
 
@@ -30,6 +36,61 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Landing,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/oweek",
+      name: "oweek",
+      components: {
+        header: AppHeader,
+        default: OWeek,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/oweek/theme",
+      name: "oweek",
+      components: {
+        header: AppHeader,
+        default: Theme,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/oweek/coords",
+      name: "oweek",
+      components: {
+        header: AppHeader,
+        oweeknav: AppFooter,
+        default: Coordinators,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/oweek/room",
+      name: "oweek",
+      components: {
+        header: AppHeader,
+        default: Room,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/oweek/movein",
+      name: "oweek",
+      components: {
+        header: AppHeader,
+        default: MoveIn,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/oweek/contact",
+      name: "oweek",
+      components: {
+        header: AppHeader,
+        default: OWeekContact,
         footer: AppFooter
       }
     },

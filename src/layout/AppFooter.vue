@@ -8,14 +8,16 @@
                     </router-link>
                 </div>
                 <div class="col-md-3 text-left my-1">
-                    <div class="copyright">
+                    <p class="copyright">
                         &copy; {{year}}
                         Duncan College
-                    </div>
+                    </p>
+                    <p>
+                    </p>
                 </div>
                 <div class="col-md-8 text-right my-1">
                     <div class="self-promotion">
-                        <a href="https://github.com/awangg" class="text-dark" target="_blank" rel="noopener">&lt;/&gt; with &lt;3 by Andy Wang</a><br/>
+                        <span>&lt;/&gt; with &lt;3 by Andy Wang</span><br/>
                         <a href="https://github.com/riceduncan/duncan-website/issues" class="text-dark" target="_blank" rel="noopener">Report an Issue</a>
                     </div>
                 </div>

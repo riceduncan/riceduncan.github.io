@@ -1,7 +1,6 @@
 <template>
     <div class="my-5">
-        <img :src="image" class="img-fluid mb-4" />
-        <p class="description text-dark">{{bio}}</p>
+        <p class="text-dark">{{bio}}</p>
         <hr />
         <div class="row justify-content-center align-items-center">
             <div class="col-lg-4 col-md-12 col-sm-12 my-3" v-for="(member, index) in members" :key="index">
@@ -11,6 +10,8 @@
                 </card>
             </div>
         </div>
+        <hr />
+        <img :src="image" class="img-fluid mb-4" />
     </div>
 </template>
 

@@ -17,6 +17,12 @@
             </div>
 
             <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                <li class="nav-item">
+                    <router-link slot="title" to="/oweek" class="nav-link" data-toggle="dropdown" role="button">
+                        <i class="fa fa-subway d-lg-none"></i>
+                        <span class="nav-link-inner--text font-weight-bold">O-Week</span>
+                    </router-link>
+                </li>
                 <base-dropdown tag="li" class="nav-item">
                     <router-link slot="title" to="/about" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="fa fa-info-circle d-lg-none"></i>
