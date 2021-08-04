@@ -47,7 +47,7 @@
 <script>
 import Tabs from '../../components/Tabs/Tabs';
 import TabPane from '../../components/Tabs/TabPane';
-import GroupCard from '../components/GroupCard';
+import GroupCard from '../components/Cards/GroupCard';
 
 import committees from '../../data/committees.data';
 

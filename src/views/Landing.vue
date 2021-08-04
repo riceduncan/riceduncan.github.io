@@ -138,16 +138,6 @@
                 </div>
             </div>
         </section>
-        <hr class="my-0" />
-        <section class="section section-lg pt-lg-4 mt-5">
-            <div class="container justify-content-center">
-                <b-carousel controls indicators :interval="0" ref="carousel">
-                    <b-carousel-slide img-src="img/carousel/all.jpg"></b-carousel-slide>
-                    <b-carousel-slide img-src="img/carousel/group.jpg"></b-carousel-slide>
-                    <b-carousel-slide img-src="img/carousel/kangaroo.jpg"></b-carousel-slide>
-                </b-carousel>
-            </div>
-        </section>
     </div>
 </template>
 

@@ -44,7 +44,7 @@
 <script>
 import Tabs from '../../components/Tabs/Tabs';
 import TabPane from '../../components/Tabs/TabPane';
-import SquadCard from '../components/SquadCard';
+import SquadCard from '../components/Cards/SquadCard';
 
 import squad from '../../data/squad.data';
 
