@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="position-relative">
-            <section class="section-shaped my-0 mx-5 section-lg mt-3">
+            <section class="section-shaped my-0 section-lg mt-3 superlanding">
                 <div class="shape shape-style-1 splash">
                 </div>
                 <div class="container shape-container d-flex">
@@ -175,5 +175,18 @@ export default {
 
 .section-green {
     background: #b8deb8;
+}
+
+@media only screen and (max-width: 576px) {
+  .superlanding {
+      height: 90vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .superlanding {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
 }
 </style>
