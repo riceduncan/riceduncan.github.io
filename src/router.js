@@ -8,7 +8,6 @@ import About from './views/About.vue';
 import Traditions from './views/subpages/Traditions.vue';
 import FAQ from './views/subpages/FAQ.vue';
 import Contact from './views/subpages/Contact.vue';
-import Government from './views/Government.vue';
 import Committees from './views/subpages/Committees.vue';
 import Representatives from './views/subpages/Representatives.vue';
 import DuncSquad from './views/subpages/DuncSquad.vue';
@@ -126,15 +125,6 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Contact,
-        footer: AppFooter
-      }
-    },
-    {
-      path: "/government",
-      name: "government",
-      components: {
-        header: AppHeader,
-        default: Government,
         footer: AppFooter
       }
     },
