@@ -33,10 +33,10 @@
                     <router-link to="/about/contact" class="dropdown-item">Contact</router-link>
                 </base-dropdown>
                 <base-dropdown tag="li" class="nav-item">
-                    <router-link slot="title" to="/government" class="nav-link" data-toggle="dropdown" role="button">
+                    <a slot="title" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="fa fa-comments d-lg-none"></i>
                         <span class="nav-link-inner--text font-weight-bold">Government</span>
-                    </router-link>
+                    </a>
                     <router-link to="/government/committees" class="dropdown-item">Committees</router-link>
                     <router-link to="/government/representatives" class="dropdown-item">Representatives</router-link>
                     <a href="https://drive.google.com/file/d/0B5jtzpRA-PYPa1VGWHhkcVlFd29FQ2NvSUlkRks4WExkMW9v/view?usp=sharing" class="dropdown-item">Constitution</a>
