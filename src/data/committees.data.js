@@ -1,7 +1,7 @@
 module.exports = [
   {
     "name": "Executive",
-    "description": "The executive committee is a group of students who are directly elected (by popular vote) by members of the college. The executive committee is tasked with managing the Duncan government.",
+    "description": "The executive committee is a group of students who are directly elected (by popular vote) by members of the college. They lead the Duncan government, oversee sub-committee and representative activities, and host a weekly Forum meeting that is open to all Duncaroos. Elections for executive committee positions are held at the end of every year. Even if you do not have a specific position, Duncaroos are strongly encouraged to come to weekly Forum meetings and give opinions and guidance to the executive committee. Forum minutes are also published every week for Duncaroos to stay updated on the government agenda.",
     "image": "/img/carousel/all.jpg",
     "members": [
       {
@@ -25,7 +25,7 @@ module.exports = [
         "email": "duncancollegetreasurers@gmail.com"
       },
       {
-        "name": "Elena Komiya",
+        "name": "Peter Nikonowicz",
         "title": "Chief Justice",
         "email": "duncancollegecj@gmail.com"
       },
@@ -35,7 +35,7 @@ module.exports = [
         "email": "duncancollegesecretaries@gmail.com"
       },
       {
-        "name": "Phoebe Lovejoy",
+        "name": "Shivani Gollapudi",
         "title": "SA Senator",
         "email": "duncancollegesasenator@gmail.com"
       }
