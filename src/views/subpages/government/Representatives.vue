@@ -17,7 +17,7 @@
                             <h1 class="display-3 text-white">Duncan Representatives
                             </h1>
                             <p class="lead text-white">Representatives are students who are chosen to represent 
-                            our college (or a section of our college) to various organizations at Rice.</p>
+                            our college (or a section of our college) to various organizations at Rice or Duncan.</p>
                         </div>
                     </div>
                 </div>
@@ -44,11 +44,11 @@
 </template>
 
 <script>
-import Tabs from '../../components/Tabs/Tabs';
-import TabPane from '../../components/Tabs/TabPane';
-import GroupCard from '../components/GroupCard';
+import Tabs from '@/components/Tabs/Tabs';
+import TabPane from '@/components/Tabs/TabPane';
+import GroupCard from '@/views/components/Cards/GroupCard';
 
-import representatives from '../../data/representatives.data';
+import representatives from '@/data/representatives.data';
 
 export default {
   components: { Tabs, TabPane, GroupCard },

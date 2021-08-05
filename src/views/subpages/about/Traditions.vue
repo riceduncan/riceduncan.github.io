@@ -1,7 +1,7 @@
 <template>
     <div class="traditions-page">
         <section class="section-traditions-cover section-shaped my-0">
-            <div class="shape shape-style-1 shape-default shape-skew alpha-4">
+            <div class="shape shape-style-1 shape-default alpha-4">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -10,7 +10,7 @@
                 <span></span>
                 <span></span>
             </div>
-            <div class="container shape-container d-flex">
+            <div class="container shape-container d-flex py-5">
                 <div class="col px-0">
                     <div class="row">
                         <div class="col-lg-6">
@@ -23,7 +23,7 @@
                 </div>
             </div>
         </section>
-        <section class="section section-lg pt-lg-0 mt--200">
+        <section class="section section-lg pt-lg-0 mt-5">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import traditions from '../../data/traditions.data';
+import traditions from '../../../data/traditions.data';
 
 export default {
   data() {

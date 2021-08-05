@@ -30,9 +30,20 @@
                             <span slot="title">
                                 {{elem.name}}
                             </span>
-                            <SquadCard :bio="elem.bio" 
-                                       :image="elem.image"
-                                       :members="elem.members" />
+                            <div class="my-5">
+                                <p class="text-dark">{{elem.bio}}</p>
+                                <hr />
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-lg-4 col-md-12 col-sm-12 my-3" v-for="(member, index) in elem.members" :key="index">
+                                        <card class="border-0 text-center" :class="{'bg-success': hasEmail(member)}" hover shadow>
+                                            <h6 class="font-weight-bold text-uppercase mt-3" :class="{'text-white': hasEmail(member)}">{{member.split('|')[0]}}</h6>
+                                            <p class="description smaller text-white">{{member.split('|')[1]}}</p>
+                                        </card>
+                                    </div>
+                                </div>
+                                <hr />
+                                <img :src="elem.image" class="img-fluid mb-4" />
+                            </div>
                         </tab-pane>
                     </tabs>
                 </div>
@@ -42,14 +53,13 @@
 </template>
 
 <script>
-import Tabs from '../../components/Tabs/Tabs';
-import TabPane from '../../components/Tabs/TabPane';
-import SquadCard from '../components/SquadCard';
+import Tabs from '@/components/Tabs/Tabs';
+import TabPane from '@/components/Tabs/TabPane';
 
-import squad from '../../data/squad.data';
+import squad from '@/data/squad.data';
 
 export default {
-  components: { Tabs, TabPane, SquadCard },
+  components: { Tabs, TabPane },
   data() {
     return {
       squad: []
@@ -57,6 +67,11 @@ export default {
   },
   created() {
     this.squad = squad
+  },
+  methods: {
+      hasEmail(str) {
+          return str.split('|')[1] != null
+      }
   }
 }
 </script>

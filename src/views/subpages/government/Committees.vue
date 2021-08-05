@@ -45,11 +45,11 @@
 </template>
 
 <script>
-import Tabs from '../../components/Tabs/Tabs';
-import TabPane from '../../components/Tabs/TabPane';
-import GroupCard from '../components/GroupCard';
+import Tabs from '@/components/Tabs/Tabs';
+import TabPane from '@/components/Tabs/TabPane';
+import GroupCard from '@/views/components/Cards/GroupCard';
 
-import committees from '../../data/committees.data';
+import committees from '@/data/committees.data';
 
 export default {
   components: { Tabs, TabPane, GroupCard },
