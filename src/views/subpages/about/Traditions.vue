@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import traditions from '../../data/traditions.data';
+import traditions from '../../../data/traditions.data';
 
 export default {
   data() {

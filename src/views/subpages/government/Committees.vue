@@ -1,5 +1,5 @@
 <template>
-    <div class="representative-page">
+    <div class="committee-page">
         <section class="section-government-cover section-shaped my-0">
             <div class="shape shape-style-1 shape-default alpha-4">
                 <span></span>
@@ -14,10 +14,11 @@
                 <div class="col px-0">
                     <div class="row">
                         <div class="col-lg-6">
-                            <h1 class="display-3 text-white">Duncan Representatives
+                            <h1 class="display-3 text-white">Duncan Committees
                             </h1>
-                            <p class="lead text-white">Representatives are students who are chosen to represent 
-                            our college (or a section of our college) to various organizations at Rice or Duncan.</p>
+                            <p class="lead text-white">Duncan runs on its committees. They handle parties, 
+                            social events like Fridays in the Quad, alumni and associate relations, merchandise, 
+                            and much, much, more.</p>
                         </div>
                     </div>
                 </div>
@@ -27,14 +28,14 @@
             <div class="container justify-content-center text-center">
                 <div class="row justify-content-center">
                     <tabs fill class="flex-column flex-md-row">
-                        <tab-pane v-for="(reps, index) in representatives" :key="index">
+                        <tab-pane v-for="(committee, index) in committees" :key="index">
                             <span slot="title">
-                                {{reps.name}}
+                                {{committee.name}}
                             </span>
-                            <GroupCard :description="reps.description" 
-                                       :image="reps.image"
-                                       :email="reps.email"
-                                       :members="reps.members" />
+                            <GroupCard :description="committee.description" 
+                                        :image="committee.image"
+                                        :email="committee.email"
+                                        :members="committee.members" />
                         </tab-pane>
                     </tabs>
                 </div>
@@ -44,21 +45,21 @@
 </template>
 
 <script>
-import Tabs from '../../components/Tabs/Tabs';
-import TabPane from '../../components/Tabs/TabPane';
-import GroupCard from '../components/Cards/GroupCard';
+import Tabs from '@/components/Tabs/Tabs';
+import TabPane from '@/components/Tabs/TabPane';
+import GroupCard from '@/views/components/Cards/GroupCard';
 
-import representatives from '../../data/representatives.data';
+import committees from '@/data/committees.data';
 
 export default {
   components: { Tabs, TabPane, GroupCard },
   data() {
     return {
-      representatives: []
+      committees: []
     }
   },
   created() {
-    this.representatives = representatives
+    this.committees = committees
   }
 }
 </script>

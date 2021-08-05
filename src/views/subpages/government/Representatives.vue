@@ -1,6 +1,6 @@
 <template>
-    <div class="paa-page">
-        <section class="section-people-cover section-shaped my-0">
+    <div class="representative-page">
+        <section class="section-government-cover section-shaped my-0">
             <div class="shape shape-style-1 shape-default alpha-4">
                 <span></span>
                 <span></span>
@@ -14,10 +14,10 @@
                 <div class="col px-0">
                     <div class="row">
                         <div class="col-lg-6">
-                            <h1 class="display-3 text-white">Academic Advising
+                            <h1 class="display-3 text-white">Duncan Representatives
                             </h1>
-                            <p class="lead text-white">Overwhelmed by four years of classes? Confused about majors?
-                            Schedule a session with an academic advisor today!</p>
+                            <p class="lead text-white">Representatives are students who are chosen to represent 
+                            our college (or a section of our college) to various organizations at Rice or Duncan.</p>
                         </div>
                     </div>
                 </div>
@@ -27,10 +27,14 @@
             <div class="container justify-content-center text-center">
                 <div class="row justify-content-center">
                     <tabs fill class="flex-column flex-md-row">
-                        <tab-pane v-for="(type, index) in advisors" :key="index">
+                        <tab-pane v-for="(reps, index) in representatives" :key="index">
                             <span slot="title">
-                                {{type.name}}
+                                {{reps.name}}
                             </span>
+                            <GroupCard :description="reps.description" 
+                                       :image="reps.image"
+                                       :email="reps.email"
+                                       :members="reps.members" />
                         </tab-pane>
                     </tabs>
                 </div>
@@ -40,20 +44,21 @@
 </template>
 
 <script>
-import Tabs from '../../components/Tabs/Tabs';
-import TabPane from '../../components/Tabs/TabPane';
+import Tabs from '@/components/Tabs/Tabs';
+import TabPane from '@/components/Tabs/TabPane';
+import GroupCard from '@/views/components/Cards/GroupCard';
 
-import advisors from '../../data/acadvisors.data';
+import representatives from '@/data/representatives.data';
 
 export default {
-  components: { Tabs, TabPane },
+  components: { Tabs, TabPane, GroupCard },
   data() {
     return {
-      advisors: []
+      representatives: []
     }
   },
   created() {
-    this.advisors = advisors
+    this.representatives = representatives
   }
 }
 </script>

@@ -49,7 +49,7 @@
                     </a>
                     <router-link to="/people/duncsquad" class="dropdown-item">DuncSquad</router-link>
                     <!-- <router-link to="/people/associates" class="dropdown-item">Associates</router-link> -->
-                    <!-- <router-link to="/people/academicfellows" class="dropdown-item">Academic Fellows</router-link> -->
+                    <router-link to="/people/academicfellows" class="dropdown-item">Academic Fellows</router-link>
                     <!-- <router-link to="/people/paa" class="dropdown-item">Academic Advising</router-link> -->
                     <!-- <router-link to="/people/rha" class="dropdown-item">RHAs</router-link> -->
                 </base-dropdown>

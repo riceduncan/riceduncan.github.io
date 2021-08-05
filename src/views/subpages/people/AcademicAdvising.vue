@@ -1,5 +1,5 @@
 <template>
-    <div class="squad-page">
+    <div class="paa-page">
         <section class="section-people-cover section-shaped my-0">
             <div class="shape shape-style-1 shape-default alpha-4">
                 <span></span>
@@ -14,9 +14,10 @@
                 <div class="col px-0">
                     <div class="row">
                         <div class="col-lg-6">
-                            <h1 class="display-3 text-white">The DuncSquad
+                            <h1 class="display-3 text-white">Academic Advising
                             </h1>
-                            <p class="lead text-white">The best and brightest adults on campus.</p>
+                            <p class="lead text-white">Overwhelmed by four years of classes? Confused about majors?
+                            Schedule a session with an academic advisor today!</p>
                         </div>
                     </div>
                 </div>
@@ -26,13 +27,10 @@
             <div class="container justify-content-center text-center">
                 <div class="row justify-content-center">
                     <tabs fill class="flex-column flex-md-row">
-                        <tab-pane v-for="(elem, index) in squad" :key="index">
+                        <tab-pane v-for="(type, index) in advisors" :key="index">
                             <span slot="title">
-                                {{elem.name}}
+                                {{type.name}}
                             </span>
-                            <SquadCard :bio="elem.bio" 
-                                       :image="elem.image"
-                                       :members="elem.members" />
                         </tab-pane>
                     </tabs>
                 </div>
@@ -42,21 +40,20 @@
 </template>
 
 <script>
-import Tabs from '../../components/Tabs/Tabs';
-import TabPane from '../../components/Tabs/TabPane';
-import SquadCard from '../components/Cards/SquadCard';
+import Tabs from '@/components/Tabs/Tabs';
+import TabPane from '@/components/Tabs/TabPane';
 
-import squad from '../../data/squad.data';
+import advisors from '@/data/acadvisors.data';
 
 export default {
-  components: { Tabs, TabPane, SquadCard },
+  components: { Tabs, TabPane },
   data() {
     return {
-      squad: []
+      advisors: []
     }
   },
   created() {
-    this.squad = squad
+    this.advisors = advisors
   }
 }
 </script>

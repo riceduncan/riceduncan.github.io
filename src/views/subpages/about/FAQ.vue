@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import faq from '../../data/faq.data';
+import faq from '../../../data/faq.data';
 
 export default {
   data() {

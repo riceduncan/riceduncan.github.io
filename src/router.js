@@ -5,17 +5,18 @@ import AppFooter from "./layout/AppFooter";
 
 import Landing from "./views/Landing.vue";
 import About from './views/About.vue';
-import Traditions from './views/subpages/Traditions.vue';
-import FAQ from './views/subpages/FAQ.vue';
-import Contact from './views/subpages/Contact.vue';
-import Committees from './views/subpages/Committees.vue';
-import Representatives from './views/subpages/Representatives.vue';
-import DuncSquad from './views/subpages/DuncSquad.vue';
-import AcademicFellows from './views/subpages/AcademicFellows.vue';
-import AcademicAdvising from './views/subpages/AcademicAdvising.vue';
-import Forms from './views/subpages/Forms.vue';
 import NotFound from './views/NotFound.vue';
 import OWeek from './views/OWeek.vue';
+
+import Forms from './views/subpages/Forms.vue';
+import Traditions from './views/subpages/about/Traditions.vue';
+import FAQ from './views/subpages/about/FAQ.vue';
+import Contact from './views/subpages/about/Contact.vue';
+import Committees from './views/subpages/government/Committees.vue';
+import Representatives from './views/subpages/government/Representatives.vue';
+import DuncSquad from './views/subpages/people/DuncSquad.vue';
+import AcademicFellows from './views/subpages/people/AcademicFellows.vue';
+import AcademicAdvising from './views/subpages/people/AcademicAdvising.vue';
 import Theme from './views/subpages/oweek/Theme.vue';
 import OWeekContact from './views/subpages/oweek/Contact.vue';
 import Coordinators from './views/subpages/oweek/Coordinators.vue';
