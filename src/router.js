@@ -157,7 +157,7 @@ export default new Router({
       }
     },
     {
-      path: '/people/academicfellows',
+      path: '/people/fellows',
       name: 'fellows',
       components: {
         header: AppHeader,

@@ -23,7 +23,21 @@
                 </div>
             </div>
         </section>
-        <section class="section section-lg pt-lg-4 mt-5">
+        <section class="section section-lg pt-lg-0 mt-5 pb-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <p class="text-dark">Peer Academic Advisors (PAAs) are an integral part of the advising community 
+                        at Rice, and have been nationally recognized by the National Academic Advising Association (NACADA)! 
+                        They are competitively selected and extensively trained by the Office of Academic Advising (OAA)
+                        and serve their respective residential college community by providing peer advice to fellow 
+                        students about a wide range of academically-related topics.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="my-0" />
+        <section class="section section-lg pt-lg-4">
             <div class="container justify-content-center text-center">
                 <div class="row justify-content-center">
                     <tabs fill class="flex-column flex-md-row">
