@@ -31,6 +31,15 @@
                             <span slot="title">
                                 {{type.name}}
                             </span>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-4 col-md-12 col-sm-12 my-3 paa-card" v-for="(member, index) in type.members" :key="index">
+                                    <card class="border-0 text-center" hover shadow>
+                                        <h6 class="font-weight-bold text-uppercase mt-3">{{member.name}}</h6>
+                                        <p class="description smaller">{{member.email}}</p>
+                                        <p>{{member.subjects.join(", ")}}</p>
+                                    </card>
+                                </div>
+                            </div>
                         </tab-pane>
                     </tabs>
                 </div>
@@ -57,3 +66,11 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+@media only screen and (min-width: 768px) {
+    .paa-card {
+        min-width: 22rem;
+    }
+}
+</style>
