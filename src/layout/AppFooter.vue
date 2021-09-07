@@ -18,7 +18,7 @@
                 <div class="col-md-8 text-right my-1">
                     <div class="self-promotion">
                         <span>&lt;/&gt; with &lt;3 by Andy Wang</span><br/>
-                        <a href="https://github.com/riceduncan/duncan-website/issues" class="text-dark" target="_blank" rel="noopener">Report an Issue</a>
+                        <a href="https://github.com/riceduncan/riceduncan.github.io/issues" class="text-dark" target="_blank" rel="noopener">Report an Issue</a>
                     </div>
                 </div>
             </div>

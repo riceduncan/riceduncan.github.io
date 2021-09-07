@@ -42,7 +42,7 @@
                                     </div>
                                 </div>
                                 <hr />
-                                <img :src="elem.image" class="img-fluid mb-4" />
+                                <img :src="elem.image" class="img-fluid mb-4 squad-img" />
                             </div>
                         </tab-pane>
                     </tabs>
@@ -75,3 +75,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.squad-img {
+    max-height: 30rem;
+}
+</style>
