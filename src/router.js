@@ -17,6 +17,7 @@ import Representatives from './views/subpages/government/Representatives.vue';
 import DuncSquad from './views/subpages/people/DuncSquad.vue';
 import AcademicFellows from './views/subpages/people/AcademicFellows.vue';
 import AcademicAdvising from './views/subpages/people/AcademicAdvising.vue';
+import RHA from './views/subpages/people/RHA.vue';
 import Theme from './views/subpages/oweek/Theme.vue';
 import OWeekContact from './views/subpages/oweek/Contact.vue';
 import Coordinators from './views/subpages/oweek/Coordinators.vue';
@@ -171,6 +172,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: AcademicAdvising,
+        footer: AppFooter
+      }
+    },
+    {
+      path: '/people/rha',
+      name: 'rha',
+      components: {
+        header: AppHeader,
+        default: RHA,
         footer: AppFooter
       }
     },

@@ -51,7 +51,7 @@
                     <!-- <router-link to="/people/associates" class="dropdown-item">Associates</router-link> -->
                     <router-link to="/people/fellows" class="dropdown-item">Academic Fellows</router-link>
                     <router-link to="/people/paa" class="dropdown-item">Academic Advisors</router-link>
-                    <!-- <router-link to="/people/rha" class="dropdown-item">RHAs</router-link> -->
+                    <router-link to="/people/rha" class="dropdown-item">RHAs</router-link>
                 </base-dropdown>
                 <base-dropdown tag="li" class="nav-item">
                     <a slot="title" class="nav-link" data-toggle="dropdown" role="button">
