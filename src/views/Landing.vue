@@ -138,6 +138,16 @@
                 </div>
             </div>
         </section>
+        <hr class="my-0 mb-5" />
+        <section class="section section-lg pt-lg-0">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="d-flex col justify-content-center">
+                        <iframe src="https://calendar.google.com/calendar/embed?src=ntl9mmnbh7i9mtug1naihr78mk%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 
