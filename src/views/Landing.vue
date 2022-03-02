@@ -18,10 +18,10 @@
                                                  type="success">
                                         <router-link to="/about" class="text-white">Explore Our College</router-link>
                                     </base-button>
-                                    <base-button class="mb-3 mb-sm-0"
+                                    <!-- <base-button class="mb-3 mb-sm-0"
                                                  type="warning">
                                         <router-link to="/oweek" class="text-white">O-Week!</router-link>
-                                    </base-button>
+                                    </base-button> -->
                                 </div>
                             </div>
                         </div>
