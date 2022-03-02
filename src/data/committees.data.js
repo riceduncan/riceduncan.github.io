@@ -54,12 +54,12 @@ module.exports = [
       },
       {
         "name": "Saksham Vashistha",
-        "title": "Committee Member",
+        "title": "Committee Head",
         "email": "sv28@rice.edu"
       },
       {
         "name": "Isis Burgos",
-        "title": "Committee Member",
+        "title": "Committee Head",
         "email": "ieb2@rice.edu"
       }
     ]
