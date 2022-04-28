@@ -39,7 +39,7 @@
                     </a>
                     <router-link to="/government/committees" class="dropdown-item">Committees</router-link>
                     <router-link to="/government/representatives" class="dropdown-item">Representatives</router-link>
-                    <a href="https://drive.google.com/file/d/1hsGU2chm_STjuQ7fwqsCS-fNLJ5gfUVc/view?usp=sharing" class="dropdown-item">Constitution</a>
+                    <a href="https://drive.google.com/file/d/1Vv6ysjObPzKoeGoM0tCijW-N6M0IYRSz/view?usp=sharing" class="dropdown-item">Constitution</a>
                     <a href="https://docs.google.com/document/d/16b0xmeFPF07ZnMb53IsfF-v7DQ3f_M51vUWjrnOTXfc/edit?usp=sharing" class="dropdown-item">Code of Conduct</a>
                 </base-dropdown>
                 <base-dropdown tag="li" class="nav-item">
